@@ -2,11 +2,12 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/admin/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/admin2/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/admin2/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka1/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka2/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/monitor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order-view/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zuul/src/main/java" charset="UTF-8" />
   </component>
 </project>

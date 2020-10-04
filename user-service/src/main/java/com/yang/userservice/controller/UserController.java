@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class UserController {
 
-    @RequestMapping("/user/findByUserName")
+    @RequestMapping("/findByUserName")
     public User findByUserName(String userName) {
         System.out.println("service: " + userName);
         User user = new User();

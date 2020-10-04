@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 @FeignClient(value = "user-service", configuration = FeignConfig.class, fallback = UserServiceImpl.class)
 public interface UserService {
 
-    @RequestMapping(value = "/user/findByUserName")
+    @RequestMapping(value = "/findByUserName")
     User findByUserName(@RequestParam("userName") String userName);
 
 }
