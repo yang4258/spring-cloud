@@ -1,6 +1,7 @@
 package com.yang.orderservice.controller;
 
 import com.yang.orderservice.entity.Order;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -13,8 +14,11 @@ import java.math.BigDecimal;
 @RestController
 public class OrderController {
 
+    @Value("${orderid}")
+    private String id;
+
     @RequestMapping("/findById")
-    public Order findById(String id) {
+    public Order findById() {
         System.out.println("service: " + id);
         Order order = new Order();
         order.setId(id);

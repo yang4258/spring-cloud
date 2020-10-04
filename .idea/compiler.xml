@@ -7,9 +7,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="demo" />
         <module name="zuul" />
         <module name="order-service" />
+        <module name="config" />
         <module name="admin" />
         <module name="user-service" />
         <module name="eureka2" />
@@ -21,6 +21,7 @@
     <bytecodeTargetLevel>
       <module name="admin" target="1.8" />
       <module name="admin (1)" target="1.8" />
+      <module name="config" target="1.8" />
       <module name="demo" target="1.8" />
       <module name="eureka1" target="1.8" />
       <module name="eureka2" target="1.8" />
@@ -35,6 +36,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="admin" options="-parameters" />
       <module name="admin (1)" options="-parameters" />
+      <module name="config" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="eureka1" options="-parameters" />
       <module name="eureka2" options="-parameters" />
