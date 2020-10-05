@@ -8,14 +8,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="zuul" />
-        <module name="order-service" />
         <module name="config" />
-        <module name="admin" />
-        <module name="user-service" />
+        <module name="order-service" />
         <module name="eureka2" />
+        <module name="user-service" />
+        <module name="order-view" />
         <module name="eureka1" />
         <module name="monitor" />
-        <module name="order-view" />
+        <module name="admin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -28,6 +28,7 @@
       <module name="monitor" target="1.8" />
       <module name="order-service" target="1.8" />
       <module name="order-view" target="1.8" />
+      <module name="sleuth" target="1.8" />
       <module name="user-service" target="1.8" />
       <module name="zuul" target="1.8" />
     </bytecodeTargetLevel>
@@ -43,6 +44,7 @@
       <module name="monitor" options="-parameters" />
       <module name="order-service" options="-parameters" />
       <module name="order-view" options="-parameters" />
+      <module name="sleuth" options="-parameters" />
       <module name="user-service" options="-parameters" />
       <module name="zuul" options="-parameters" />
     </option>
