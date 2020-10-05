@@ -52,7 +52,7 @@
             <groupId>de.codecentric</groupId>
             <artifactId>spring-boot-admin-starter-client</artifactId>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.jolokia/jolokia-core -->
+        <!-- https://mvnrepository.com/artifact/org.jolokia/jolokia-core admin jmx支持 -->
         <dependency>
             <groupId>org.jolokia</groupId>
             <artifactId>jolokia-core</artifactId>
