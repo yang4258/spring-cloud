@@ -1,7 +1,7 @@
-package com.yang.admin.feginservice.impl;
+package com.yang.userview.feginservice.impl;
 
-import com.yang.admin.entity.User;
-import com.yang.admin.feginservice.UserService;
+import com.yang.userview.entity.User;
+import com.yang.userview.feginservice.UserService;
 import org.springframework.stereotype.Component;
 
 @Component

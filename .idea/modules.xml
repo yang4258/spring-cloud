@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/order-view/order-view.iml" filepath="$PROJECT_DIR$/order-view/order-view.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-cloud.iml" filepath="$PROJECT_DIR$/.idea/spring-cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-service/user-service.iml" filepath="$PROJECT_DIR$/user-service/user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-view/user-view.iml" filepath="$PROJECT_DIR$/user-view/user-view.iml" />
       <module fileurl="file://$PROJECT_DIR$/zuul/zuul.iml" filepath="$PROJECT_DIR$/zuul/zuul.iml" />
     </modules>
   </component>

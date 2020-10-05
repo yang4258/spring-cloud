@@ -1,4 +1,4 @@
-package com.yang.admin.entity;
+package com.yang.userview.entity;
 
 import lombok.Data;
 

@@ -6,15 +6,16 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/admin/pom.xml" />
         <option value="$PROJECT_DIR$/eureka1/pom.xml" />
         <option value="$PROJECT_DIR$/eureka2/pom.xml" />
         <option value="$PROJECT_DIR$/user-service/pom.xml" />
-        <option value="$PROJECT_DIR$/monitor/pom.xml" />
         <option value="$PROJECT_DIR$/order-service/pom.xml" />
         <option value="$PROJECT_DIR$/orderview/pom.xml" />
         <option value="$PROJECT_DIR$/zuul/pom.xml" />
         <option value="$PROJECT_DIR$/config/pom.xml" />
+        <option value="$PROJECT_DIR$/user-view/pom.xml" />
+        <option value="$PROJECT_DIR$/admin/pom.xml" />
+        <option value="$PROJECT_DIR$/monitor/pom.xml" />
       </list>
     </option>
   </component>

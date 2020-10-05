@@ -1,9 +1,8 @@
-package com.yang.admin.controller;
+package com.yang.userview.controller;
 
-import com.yang.admin.entity.User;
-import com.yang.admin.feginservice.UserService;
+import com.yang.userview.entity.User;
+import com.yang.userview.feginservice.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 

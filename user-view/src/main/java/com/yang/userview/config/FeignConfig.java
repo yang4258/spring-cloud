@@ -1,4 +1,4 @@
-package com.yang.admin.config;
+package com.yang.userview.config;
 
 import feign.Retryer;
 import org.springframework.context.annotation.Bean;
