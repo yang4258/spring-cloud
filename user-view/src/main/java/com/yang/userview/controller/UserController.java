@@ -16,7 +16,7 @@ public class UserController {
     @Autowired
     UserService userService;
 
-    @RequestMapping("/user/findByUserName")
+    @RequestMapping("/findByUserName")
     public User findByUserName(String userName) {
         System.out.println(userName);
         return userService.findByUserName(userName);
