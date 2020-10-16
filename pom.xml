@@ -17,6 +17,14 @@
     <modules>
         <module>admin</module>
         <module>config</module>
+        <module>eureka1</module>
+        <module>eureka2</module>
+        <module>monitor</module>
+        <module>order-service</module>
+        <module>order-view</module>
+        <module>user-service</module>
+        <module>user-view</module>
+        <module>zipkin</module>
         <module>zuul</module>
     </modules>
 

@@ -8,7 +8,7 @@ admin: 微服务监控
     监控页面 locahost:port
     被监控服务引入 spring-boot-starter-actuator，spring-boot-admin-starter-client
     配置文件写入   ## actuator 暴露所有端点 management.endpoints.web.exposure.include=*
-zipkin: 服务链路追踪服务端 springboot1.5(2.x兼容有问题)
+zipkin: 服务链路追踪服务端 springboot1.5(2.x兼容有问题)   浏览器输入 http://localhost:9411/zipkin/
 
 order-service: 服务提供方 （配置了 配置中心 获取配置文件，需要先启动注册中心，配置中心，否则启动失败）
 user-service: 服务提供方
