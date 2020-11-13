@@ -14,3 +14,7 @@ order-service: 服务提供方 （配置了 配置中心 获取配置文件，�
 user-service: 服务提供方
 user-view: 服务消费方 （fegin, ribbon, Hystrix, actuator, admin-client, zipkin-client）
 order-view: 服务消费方
+
+
+dynamic-gateway: 根据数据库加载网关配置信息
+oauth2-service：认证授权

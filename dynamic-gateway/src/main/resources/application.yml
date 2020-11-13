@@ -1,0 +1,15 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: dunamic-gateway
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+logging:
+  level:
+    org.springframework.cloud.gateway: debug

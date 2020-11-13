@@ -1,0 +1,15 @@
+server:
+  port: 9401
+spring:
+  application:
+    name: oauth2-service
+
+  redis:
+    host: localhost
+    port: 6379
+    password:
+logging:
+  level:
+    org: debug
+    com: debug
+
